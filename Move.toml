@@ -1,0 +1,16 @@
+[package]
+name = "aptosbootcamp-project"
+version = "1.0.0"
+authors = []
+
+[addresses]
+prasad_addr = "bbb21be5cb6a888b255ccc1d409586a2b1c7c31ba142b4859bbeb26de0f26607"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

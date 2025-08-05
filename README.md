@@ -33,5 +33,5 @@ To empower communities with a secure, trustless, and decentralized voting platfo
 ---
 
 ## 📜 Contract Details
+<img width="1920" height="1032" alt="image png" src="https://github.com/user-attachments/assets/58be0380-d6d5-4cc4-932a-b9709319575b" />
 
-![alt text](<Screenshot 2025-08-05 203210.png>)

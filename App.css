@@ -1,0 +1,105 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  background: #ffffff10;
+  padding: 30px 40px;
+  border-radius: 20px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #00ffff;
+}
+
+.subtitle {
+  margin: 20px 0 10px;
+  font-size: 20px;
+}
+
+.connect-btn, .disconnect-btn {
+  background: #00c9a7;
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.connect-btn:hover, .disconnect-btn:hover {
+  background: #00e6c3;
+}
+
+.wallet-info {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.vote-btn {
+  flex: 1;
+  min-width: 100px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 12px;
+  background: #ffaa00;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vote-btn:hover {
+  background: #ffcc00;
+}
+
+.vote-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.results-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.results {
+  background: #ffffff15;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff22;
+  padding: 8px 0;
+}
